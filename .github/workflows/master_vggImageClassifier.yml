@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'vggImageClassifier'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_bb99c028f1994291b0432af4a54e3cd4 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_38232070a73747c1b31a37aec79de321 }}
