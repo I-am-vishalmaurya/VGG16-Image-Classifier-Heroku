@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request
 from keras.preprocessing import image
 from keras.applications.vgg16 import VGG16
-from tensorflow.keras.preprocessing import image as img
-from tensorflow.keras.preprocessing.image import img_to_array
+from keras.preprocessing import image as img
+from keras.preprocessing.image import img_to_array
 from PIL import Image
 from tensorflow.keras.applications.vgg16 import preprocess_input, decode_predictions
 import numpy as np
